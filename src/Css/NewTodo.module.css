@@ -1,0 +1,56 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.NewTodo{
+    background-color: #222;
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 55px auto;
+    border-radius: 10px;
+}
+.from{
+    width: 80%;
+    color: white;
+    border-radius: 0.6rem;
+}
+.from-field{
+    margin-top: 5px;
+    display: flex;
+}
+.from-field label{
+    flex-basis: 50%;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.from-field input{
+    flex-basis: 100%;
+    border: none;
+    border-radius: 0.6rem;
+    margin-left: 25px;
+    padding: 0.2rem;
+}
+.from-field textarea{
+    flex-basis: 80%;
+    resize: none;
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+}
+.from button{
+    border: none;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 198px;
+    width: 50%;
+}
+.from button:hover{
+    background-color: orange;
+    color: white;
+}

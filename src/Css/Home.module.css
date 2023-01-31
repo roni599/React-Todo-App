@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.card{
+    width: 50%;
+    height: 600px;
+    background-color: #1F8A70;
+    top: 15px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+.text{
+    margin-top: 18px;
+    color: white;
+    text-align: center;
+}
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.AddTodo{
+    width: 50%;
+}
+.AddTodo2{
+    width: 50%;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .flex {
+      width: 50%;
+    }
+  }
